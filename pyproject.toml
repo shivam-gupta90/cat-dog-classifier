@@ -1,2 +1,14 @@
+[project]
+name = "cat-dog-classifier"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "python-multipart",
+    "torch",
+    "torchvision",
+    "pillow"
+]
+
 [tool.vercel]
 entrypoint = "backend.main:app"
